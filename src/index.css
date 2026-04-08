@@ -1,0 +1,503 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fade animation for modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+/* Dropdown animation */
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-dropdown {
+  animation: dropdownFade 0.2s ease-out forwards;
+}
+
+/* ============================================
+   PHASE 1 - ADVANCED ANIMATIONS
+   ============================================ */
+
+/* Scroll Reveal Animations */
+@keyframes revealFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes revealFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes revealScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-reveal-fade-up {
+  animation: revealFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-reveal-fade-in {
+  animation: revealFadeIn 0.6s ease-out forwards;
+}
+
+.animate-reveal-scale-in {
+  animation: revealScaleIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Stagger delays for reveal animations */
+.reveal-delay-100 { animation-delay: 100ms; }
+.reveal-delay-200 { animation-delay: 200ms; }
+.reveal-delay-300 { animation-delay: 300ms; }
+.reveal-delay-400 { animation-delay: 400ms; }
+.reveal-delay-500 { animation-delay: 500ms; }
+.reveal-delay-600 { animation-delay: 600ms; }
+.reveal-delay-700 { animation-delay: 700ms; }
+.reveal-delay-800 { animation-delay: 800ms; }
+
+/* Animated Gradient Background */
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+}
+
+.animate-gradient-shift {
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+/* Blob Animation */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* ============================================
+   PHASE 2 - BUTTON MICRO-INTERACTIONS
+   ============================================ */
+
+/* Ripple Effect */
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.ripple-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  animation: ripple 0.6s linear forwards;
+  pointer-events: none;
+}
+
+/* Magnetic Hover Effect */
+.magnetic-hover {
+  transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.12, 0.99);
+}
+
+.magnetic-hover:hover {
+  transform: scale(1.05);
+}
+
+/* Animated Border Glow */
+@keyframes borderGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1),
+                0 0 10px rgba(255, 255, 255, 0.1),
+                0 0 15px rgba(255, 255, 255, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3),
+                0 0 20px rgba(255, 255, 255, 0.2),
+                0 0 30px rgba(255, 255, 255, 0.1);
+  }
+}
+
+.animate-border-glow:hover {
+  animation: borderGlow 2s ease-in-out infinite;
+}
+
+/* ============================================
+   PHASE 3 - CARD DEPTH EFFECT
+   ============================================ */
+
+/* 3D Tilt Effect - applied via JS */
+.card-tilt {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-out;
+}
+
+/* Shadow Layering */
+.shadow-depth-1 {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.shadow-depth-2 {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-depth-3 {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-depth-4 {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Layered Shadow for Cards */
+.shadow-layered {
+  box-shadow: 
+    0 1px 1px 0 rgba(0, 0, 0, 0.03),
+    0 2px 2px 0 rgba(0, 0, 0, 0.03),
+    0 4px 4px 0 rgba(0, 0, 0, 0.03),
+    0 8px 8px 0 rgba(0, 0, 0, 0.03),
+    0 16px 16px 0 rgba(0, 0, 0, 0.03);
+}
+
+/* ============================================
+   PHASE 4 - HERO ENHANCEMENT
+   ============================================ */
+
+/* Counter Animation - handled via JS */
+
+/* Floating Notification Animations */
+@keyframes notificationSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes notificationSlideOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+
+.animate-notification-in {
+  animation: notificationSlideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-notification-out {
+  animation: notificationSlideOut 0.3s ease-in forwards;
+}
+
+/* ============================================
+   PHASE 5 - PREMIUM POLISH
+   ============================================ */
+
+/* Page Transitions */
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: scale(0.98) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes pageExit {
+  from {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.02) translateY(-10px);
+  }
+}
+
+.animate-page-enter {
+  animation: pageEnter 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-page-exit {
+  animation: pageExit 0.3s ease-in forwards;
+}
+
+/* App Page Transitions */
+.fade-in {
+  animation: pageEnter 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.fade-out {
+  animation: pageExit 0.3s ease-in forwards;
+}
+
+/* Animated Underline for Nav */
+@keyframes navUnderlineExpand {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.nav-link-underline {
+  position: relative;
+}
+
+.nav-link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fff, transparent);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.nav-link-underline:hover::after {
+  animation: navUnderlineExpand 0.3s ease forwards;
+}
+
+/* Glass Shimmer Effect */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.glass-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-shimmer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+  pointer-events: none;
+}
+
+/* ============================================
+   PHASE 6 - GALAXY EFFECTS
+   ============================================ */
+
+/* Star Twinkle Animation */
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 4s ease-in-out infinite;
+}
+
+/* Star Sparkle for Hero Text */
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1) rotate(180deg);
+  }
+}
+
+.animate-sparkle {
+  animation: sparkle 3s ease-in-out infinite;
+}
+
+/* Galaxy Gradient Animation */
+@keyframes galaxyShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+}
+
+.animate-galaxy {
+  background-size: 400% 400%;
+  animation: galaxyShift 20s ease infinite;
+}
+
+/* Cosmic Glow Pulse */
+@keyframes cosmicPulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3), 0 0 40px rgba(139, 92, 246, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.5), 0 0 60px rgba(139, 92, 246, 0.3);
+  }
+}
+
+.animate-cosmic-pulse {
+  animation: cosmicPulse 4s ease-in-out infinite;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+/* Will-change for performance */
+.will-change-transform {
+  will-change: transform;
+}
+
+.will-change-opacity {
+  will-change: opacity;
+}
+
+/* GPU acceleration */
+.gpu-accelerated {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

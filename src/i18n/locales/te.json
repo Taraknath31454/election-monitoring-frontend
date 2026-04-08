@@ -1,0 +1,186 @@
+{
+  "common": {
+    "appName": "ఎన్నికల పర్యవేక్షణ వ్యవస్థ",
+    "loading": "లోड్‌లో ఉంద...",
+    "save": "భద్రుపరచు",
+    "cancel": "రద్దు",
+    "submit": "Submit",
+    "close": "Close",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "login": "Login",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "selectLanguage": "Language"
+  },
+  "home": {
+    "title": "Election Monitoring",
+    "subtitle": "System",
+    "description": "Empowering citizens to report election irregularities and ensure transparent, fair elections through crowdsourced monitoring and real-time analytics.",
+    "reportNow": "Report Now",
+    "keyFeatures": "Key Features",
+    "featuresSubtitle": "Our platform provides comprehensive tools for election monitoring and reporting",
+    "recentUpdates": "Recent Updates",
+    "updatesSubtitle": "Stay informed about the latest developments in our election monitoring efforts",
+    "secureReporting": "Secure Reporting",
+    "secureReportingDesc": "Safely report election irregularities with end-to-end encryption and anonymous submission options.",
+    "realTimeAnalytics": "Real-Time Analytics",
+    "realTimeAnalyticsDesc": "Access comprehensive data visualization and analytics to track election integrity in real-time.",
+    "multiRoleAccess": "Multi-Role Access",
+    "multiRoleAccessDesc": "Designed with role-specific dashboards for citizens, observers, analysts, and administrators.",
+    "transparentMonitoring": "Transparent Monitoring",
+    "transparentMonitoringDesc": "An open observation system that allows international observers to verify election processes.",
+    "systemLaunch": "System Launch",
+    "systemLaunchDesc": "The election monitoring system is now live and accepting reports from citizens nationwide.",
+    "newAnalyticsDashboard": "New Analytics Dashboard",
+    "newAnalyticsDashboardDesc": "Comprehensive analytics features added for analysts to track voting patterns and anomalies.",
+    "observerPortal": "Observer Portal",
+    "observerPortalDesc": "Observer login portal now available for accredited election observers.",
+    "copyright": "© 2025 Election Monitoring System. All rights reserved."
+  },
+  "login": {
+    "welcomeBack": "Welcome Back",
+    "enterCredentials": "Enter your credentials to access your account",
+    "email": "Email Address",
+    "password": "Password",
+    "showPassword": "Show",
+    "hidePassword": "Hide",
+    "signIn": "Sign In",
+    "invalidCredentials": "Invalid credentials. Please try again.",
+    "adminLogin": "Admin Login",
+    "citizenLogin": "Citizen Login",
+    "observerLogin": "Observer Login",
+    "analystLogin": "Analyst Login"
+  },
+  "about": {
+    "title": "About Election Monitoring System",
+    "subtitle": "Empowering citizens to ensure transparent and fair elections through crowdsourced monitoring and real-time analytics.",
+    "mission": "Our Mission",
+    "missionDesc": "The election monitoring system is designed to promote election transparency and accountability. We provide a secure platform for citizens, election observers, and analysts where they can report, track, and analyze election irregularities in real-time. Our goal is to ensure every vote is counted and elections are conducted fairly and transparently.",
+    "systemInfo": "System Information",
+    "version": "Version",
+    "releaseDate": "Release Date",
+    "platform": "Platform",
+    "license": "License",
+    "releaseMonth": "January 2025"
+  },
+  "citizen": {
+    "dashboard": "Citizen Dashboard",
+    "reportIssue": "Report Issue",
+    "reportTitle": "Report Title",
+    "reportTitlePlaceholder": "Brief summary of the issue",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe the issue in detail...",
+    "category": "Category",
+    "selectCategory": "Select a category",
+    "location": "Location",
+    "locationPlaceholder": "e.g: Station 42, District 5",
+    "severity": "Severity Level",
+    "submitReport": "Submit Report",
+    "reportSuccess": "Your report has been submitted successfully! Our team will review it soon.",
+    "errorTitle": "Please enter a title for your report",
+    "errorDescription": "Please describe the issue",
+    "errorCategory": "Please select a category",
+    "errorLocation": "Please provide a location"
+  },
+  "observer": {
+    "dashboard": "Observer Dashboard",
+    "assignedRegion": "Assigned Region",
+    "totalReports": "Total Reports",
+    "pendingReview": "Pending Review",
+    "verified": "Verified",
+    "rejected": "Rejected",
+    "recentReports": "Recent Reports",
+    "viewAll": "View All",
+    "noReports": "No Reports Found",
+    "reportsSubtitle": "Monitor and verify election reports in your region",
+    "anomaliesReported": "Anomalies Reported",
+    "fairnessScore": "Fairness Score"
+  },
+  "analyst": {
+    "dashboard": "Analyst Dashboard",
+    "overview": "Overview",
+    "totalReports": "Total Reports",
+    "analyzedReports": "Analyzed Reports",
+    "alerts": "Alerts",
+    "pendingAnalysis": "Pending Analysis",
+    "recentActivity": "Recent Activity",
+    "reportsSubtitle": "Analyze election data and generate insights",
+    "trendAnalysis": "Trend Analysis",
+    "regionalDistribution": "Regional Distribution",
+    "severityBreakdown": "Severity Breakdown",
+    "totalVotes": "Total Votes",
+    "voterTurnout": "Voter Turnout",
+    "leadingCandidate": "Leading Candidate"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "totalUsers": "Total Users",
+    "activeUsers": "Active Users",
+    "totalReports": "Total Reports",
+    "pendingReports": "Pending Reports",
+    "userManagement": "User Management",
+    "reportsManagement": "Reports Management",
+    "systemSettings": "System Settings",
+    "recentActivity": "Recent Activity",
+    "usersSubtitle": "Manage system users and their roles",
+    "reportsSubtitle": "Oversee all reported issues"
+  },
+  "dashboard": {
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "panel": "Panel"
+  },
+  "roles": {
+    "admin": "Admin",
+    "citizen": "Citizen",
+    "observer": "Observer",
+    "analyst": "Analyst"
+  },
+  "status": {
+    "pending": "Pending",
+    "inReview": "In Review",
+    "verified": "Verified",
+    "resolved": "Resolved",
+    "rejected": "Rejected"
+  },
+  "severity": {
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "categories": {
+    "votingIrregularity": "Voting Irregularity",
+    "fraud": "Fraud",
+    "intimidation": "Intimidation",
+    "documentationIssue": "Documentation Issue",
+    "technicalIssue": "Technical Issue",
+    "other": "Other"
+  },
+  "languageModal": {
+    "title": "Select Your Language",
+    "subtitle": "Please select your preferred language to continue",
+    "confirm": "Confirm"
+  },
+  "errors": {
+    "notFound": "Page Not Found",
+    "accessDenied": "Access Denied",
+    "accessDeniedMessage": "You do not have permission to access this page.",
+    "unauthorized": "Unauthorized Access",
+    "serverError": "Server Error. Please try again later."
+  },
+  "toast": {
+    "loginSuccess": "Logged In Successfully",
+    "logoutSuccess": "Logged Out Successfully",
+    "reportSubmitted": "Report Submitted Successfully",
+    "reportUpdated": "Report Updated Successfully",
+    "error": "An Error Occurred"
+  }
+}

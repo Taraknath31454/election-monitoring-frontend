@@ -1,0 +1,176 @@
+{
+  "common": {
+    "appName": "Election Monitoring System",
+    "loading": "लोड होत आहे...",
+    "save": "जतन करा",
+    "cancel": "रद्द करा",
+    "submit": "सबमिट करा",
+    "close": "बंद करा",
+    "error": "त्रुटी",
+    "success": "यश",
+    "warning": "इशारा",
+    "info": "माहिती"
+  },
+  "nav": {
+    "home": "होम",
+    "about": "बद्दल",
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "dashboard": "डॅशबोर्ड",
+    "selectLanguage": "भाषा निवडा"
+  },
+  "home": {
+    "title": "Election Monitoring",
+    "subtitle": "System",
+    "description": "नागरिकांना Election irregularities रिपोर्ट करण्यास सक्षम करणे आणि crowdsourced monitoring आणि real-time analytics माध्यमातून पारदर्शक, न्याय्य निवडणुकीची खात्री करणे.",
+    "reportNow": "आता रिपोर्ट करा",
+    "keyFeatures": "मुख्य वैशिष्ट्ये",
+    "featuresSubtitle": "आमचा प्लॅटफॉर्म Election monitoring आणि रिपोर्टिंगसाठी व्यापक साधने प्रदान करतो",
+    "recentUpdates": "अलीकडील अपडेट",
+    "updatesSubtitle": "आमच्या Election monitoring प्रयत्नांमधील नवीनतम विकासांबद्दल माहिती रहा",
+    "secureReporting": "सुरक्षित रिपोर्टिंग",
+    "secureReportingDesc": "End-to-end encryption आणि anonymous submission पर्यायांसह Election irregularities रिपोर्ट करा.",
+    "realTimeAnalytics": "Real-time Analytics",
+    "realTimeAnalyticsDesc": "Real-time मध्ये Election integrity ट्रैक करण्यासाठी व्यापक Data visualization आणि Analytics मध्ये प्रवेश मिळवा.",
+    "multiRoleAccess": "Multi-role Access",
+    "multiRoleAccessDesc": "नागरिक, पर्यवेक्षक, विश्लेषक आणि प्रशासकांसाठी role-specific डॅशबोर्डसह डिझाइन केलेले.",
+    "transparentMonitoring": "पारदर्शक Monitoring",
+    "transparentMonitoringDesc": "आंतरराष्ट्रीय पर्यवेक्षकांना Election processes तपासण्याची परवानगी देणारी खुली observation प्रणाली.",
+    "systemLaunch": "System Launch",
+    "systemLaunchDesc": "Election Monitoring System आता लाइव आहे आणि देशभरातील नागरिकांकडून रिपोर्ट स्वीकार करत आहे.",
+    "newAnalyticsDashboard": "नवीन Analytics Dashboard",
+    "newAnalyticsDashboardDesc": "विश्लेषकांसाठी Voting patterns आणि anomalies ट्रैक करण्यासाठी व्यापक Analytics वैशिष्ट्ये जोडल्या गेल्या.",
+    "observerPortal": "Observer Portal",
+    "observerPortalDesc": "मान्यता प्राप्त Election observersसाठी Observer login portal आता उपलब्ध आहे.",
+    "copyright": "© 2025 Election Monitoring System. सर्व rights राखीव."
+  },
+  "login": {
+    "welcomeBack": "पुन्हा स्वागत आहे",
+    "enterCredentials": "तुमच्या खात्यात प्रवेश करण्यासाठी तुमचे क्रेडेंशियल्स प्रविष्ट करा",
+    "email": "ईमेल पत्ता",
+    "password": "पासवर्ड",
+    "showPassword": "दाखवा",
+    "hidePassword": "लपवा",
+    "signIn": "साइन इन",
+    "invalidCredentials": "अवैध क्रेडेंशियल्स. कृपया पुन्हा प्रयत्न करा.",
+    "adminLogin": "Admin लॉगिन",
+    "citizenLogin": "Citizen लॉगिन",
+    "observerLogin": "Observer लॉगिन",
+    "analystLogin": "Analyst लॉगिन"
+  },
+  "about": {
+    "title": "Election Monitoring System बद्दल",
+    "subtitle": "Crowdsourced monitoring आणि real-time analytics माध्यमातून पारदर्शक आणि न्याय्य निवडणुकीची खात्री करण्यासाठी नागरिकांना सक्षम करणे.",
+    "mission": "आमचे Mission",
+    "missionDesc": "Election Monitoring System हे Electoral transparency आणि accountability प्रोत्साहित करण्यासाठी डिझाइन केले आहे. आम्ही नागरिकांना, Election observers आणि विश्लेषकांना real-time मध्ये Election irregularities रिपोर्ट, ट्रैक आणि विश्लेषण करण्यासाठी एक सुरक्षित प्लॅटफॉर्म प्रदान करतो. प्रत्येक मत मोजले जाते आणि निवडणुका न्याय्यपणे आणि पारदर्शकपणे पार पाडल्या जातात याची खात्री करणे हे आमचे उद्दिष्ट आहे.",
+    "systemInfo": "System Information",
+    "version": "Version",
+    "releaseDate": "Release Date",
+    "platform": "Platform",
+    "license": "License",
+    "releaseMonth": "January 2025"
+  },
+  "citizen": {
+    "dashboard": "Citizen Dashboard",
+    "reportIssue": "समस्या रिपोर्ट करा",
+    "reportTitle": "रिपोर्ट शीर्षक",
+    "reportTitlePlaceholder": "समस्येचा संक्षिप्त सारांश",
+    "description": "वर्णन",
+    "descriptionPlaceholder": "समस्येचे तपशीलवार वर्णन करा...",
+    "category": "श्रेणी",
+    "selectCategory": "श्रेणी निवडा",
+    "location": "स्थान",
+    "locationPlaceholder": "उदा: Station 42, District 5",
+    "severity": "गंभीरता पातळी",
+    "submitReport": "रिपोर्ट सबमिट करा",
+    "reportSuccess": "तुमची रिपोर्ट यशस्वीपणे सबमिट केली गेली! आमची टीम लवकरच ती पुनरिक्षण करेल.",
+    "errorTitle": "कृपया तुमच्या रिपोर्टसाठी शीर्षक प्रविष्ट करा",
+    "errorDescription": "कृपया समस्येचे वर्णन करा",
+    "errorCategory": "कृपया श्रेणी निवडा",
+    "errorLocation": "कृपया स्थान प्रदान करा"
+  },
+  "observer": {
+    "dashboard": "Observer Dashboard",
+    "assignedRegion": "नियुक्त क्षेत्र",
+    "totalReports": "एकूण रिपोर्ट",
+    "pendingReview": "प्रलंबित पुनरिक्षण",
+    "verified": "पुष्टी केली",
+    "rejected": "नाकारले",
+    "recentReports": "अलीकडील रिपोर्ट",
+    "viewAll": "सर्व पहा",
+    "noReports": "कोणतीही रिपोर्ट आढळली नाही",
+    "reportsSubtitle": "तुमच्या क्षेत्रातील Election रिपोर्टवर लक्ष ठेवा आणि पुष्टी करा"
+  },
+  "analyst": {
+    "dashboard": "Analyst Dashboard",
+    "overview": "Overview",
+    "totalReports": "एकूण रिपोर्ट",
+    "analyzedReports": "विश्लेषित रिपोर्ट",
+    "alerts": "Alerts",
+    "pendingAnalysis": "प्रलंबित विश्लेषण",
+    "recentActivity": "अलीकडील कार्य",
+    "reportsSubtitle": "Election data विश्लेषित करा आणि Insights निर्माण करा",
+    "trendAnalysis": "Trend Analysis",
+    "regionalDistribution": "Regional Distribution",
+    "severityBreakdown": "Severity Breakdown"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "totalUsers": "एकूण Users",
+    "activeUsers": "सक्रिय Users",
+    "totalReports": "एकूण रिपोर्ट",
+    "pendingReports": "प्रलंबित रिपोर्ट",
+    "userManagement": "User Management",
+    "reportsManagement": "Reports Management",
+    "systemSettings": "System Settings",
+    "recentActivity": "अलीकडील कार्य",
+    "usersSubtitle": "System Users आणि त्यांच्या Roles व्यवस्थापित करा",
+    "reportsSubtitle": "सर्व रिपोर्ट केलेल्या समस्यांची देखरेख करा"
+  },
+  "roles": {
+    "admin": "प्रशासक",
+    "citizen": "नागरिक",
+    "observer": "पर्यवेक्षक",
+    "analyst": "विश्लेषक"
+  },
+  "status": {
+    "pending": "प्रलंबित",
+    "inReview": "पुनरिक्षणात",
+    "verified": "पुष्टी केली",
+    "resolved": "सोडवले",
+    "rejected": "नाकारले"
+  },
+  "severity": {
+    "critical": "गंभीर",
+    "high": "उच्च",
+    "medium": "मध्यम",
+    "low": "कमी"
+  },
+  "categories": {
+    "votingIrregularity": "Voting Irregularity",
+    "fraud": "Fraud",
+    "intimidation": "Intimidation",
+    "documentationIssue": "Documentation Issue",
+    "technicalIssue": "Technical Issue",
+    "other": "इतर"
+  },
+  "languageModal": {
+    "title": "तुमची भाषा निवडा",
+    "subtitle": "पुढे जाण्यासाठी कृपया तुमची पसंतीची भाषा निवडा",
+    "confirm": "पुष्टी करा"
+  },
+  "errors": {
+    "notFound": "Page आढळली नाही",
+    "accessDenied": "प्रवेश नाकारले",
+    "accessDeniedMessage": "तुम्हाला या पृष्ठात प्रवेश करण्याची परवानगी नाही.",
+    "unauthorized": "अनधिकृत प्रवेश",
+    "serverError": "Server त्रुटी. कृपया नंतर पुन्हा प्रयत्न करा."
+  },
+  "toast": {
+    "loginSuccess": "यशस्वीपणे लॉगिन केले",
+    "logoutSuccess": "यशस्वीपणे लॉगआउट केले",
+    "reportSubmitted": "रिपोर्ट यशस्वीपणे सबमिट केली",
+    "reportUpdated": "रिपोर्ट यशस्वीपणे अपडेट केली",
+    "error": "एक त्रुटी झाली"
+  }
+}
